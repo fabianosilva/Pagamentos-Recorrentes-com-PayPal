@@ -56,15 +56,15 @@ if ( isset( $_GET[ 'token' ] ) ) {
 			}
 
 			if ( $responseNvp[ 'PROFILESTATUS' ] == 'ActiveProfile' ) {
-				$resultado = 'Parab√©ns, sua assinatura foi conclu√≠da com sucesso';
+				$resultado = 'Parabéns, sua assinatura foi concluída com sucesso';
 			} else {
-				$resultado = 'N√£o foi poss√≠vel concluir a transa√ß√£o';
+				$resultado = 'Não foi possível concluir a transação';
 			}
 		} else {
-			$resultado = 'N√£o foi poss√≠vel concluir a transa√ß√£o';
+			$resultado = 'Não foi possível concluir a transação';
 		}
 	} else {
-		$resultado = 'N√£o foi poss√≠vel concluir a transa√ß√£o';
+		$resultado = 'Não foi possível concluir a transação';
 	}
 
 	curl_close( $curl );
