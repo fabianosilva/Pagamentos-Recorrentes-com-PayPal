@@ -1,4 +1,4 @@
-h1. Pagamentos recorrentes com PayPal
+<h1>Pagamentos recorrentes com PayPal</h1>
 
 Este Ž um exemplo simples baseado "neste projeto":https://github.com/paypalxbrasil/paypal-express-checkout para ilustrar o funcionamento da API PayPal para criar assinaturas/pagamentos recorrentes.
 
