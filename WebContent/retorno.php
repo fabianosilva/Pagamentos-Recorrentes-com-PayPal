@@ -7,9 +7,9 @@ if ( isset( $_GET[ 'token' ] ) ) {
 		'TOKEN'                         => $token,
 		'METHOD'			=> 'GetExpressCheckoutDetails',
 		'VERSION'			=> '72.0',
-		'PWD'				=> 'XBCECC7M9WPS4S35',
-                'USER'				=> 'dono_api1.apenasteste.com',
-                'SIGNATURE'			=> 'AFcWxV21C7fd0v3bYYYRCpSSRl31AGcMV-gr7nQOpmCIExDJowMyu.4c',
+		'PWD'				=> 'PWD',
+        'USER'				=> 'USR',
+        'SIGNATURE'			=> 'SIGNATURE',
 	);
 
 	$curl = curl_init();
