@@ -37,10 +37,10 @@ if ( isset( $_GET[ 'token' ] ) ) {
 			$nvp[ 'PAYMENTREQUEST_0_PAYMENTACTION' ]	= 'Sale';
                         $nvp[ 'AMT' ]                                   = '9.99'; //Valor que será cobrado
                         $nvp[ 'PROFILESTARTDATE'] = date(DATE_ATOM);
-                        $nvp[ 'DESC' ]                                  = 'Acesso a conteúdo exclusivo. R$9,90 por mês.'; //Deve bater com L_BILLINGAGREEMENTDESCRIPTION0 do SetEC
-                        $nvp[ 'BILLINGPERIOD' ]                         = 'Month'; //as opções são Day, SemiMonth, Month e Year - aparentemente case sensitive.
+                        $nvp[ 'DESC' ]                                  = 'Acesso a conteudo exclusivo. R$9,90 por mes.'; //Deve bater com L_BILLINGAGREEMENTDESCRIPTION0 do SetEC
+                        $nvp[ 'BILLINGPERIOD' ]                         = 'Month'; //as opcoes sao Day, SemiMonth, Month e Year - aparentemente case sensitive.
                         $nvp[ 'BILLINGFREQUENCY' ]                      = '1'; //Para cobrar todo BillingPeriod, nesse caso, mensalmente
-                        $nvp[ 'TOTALBILLINGCYCLES' ]                    = $_GET[ 'PERIODO' ]; //Quanto tempo ficará ativo
+                        $nvp[ 'TOTALBILLINGCYCLES' ]                    = $_GET[ 'PERIODO' ]; //Quanto tempo ficarah ativo
                         $nvp[ 'METHOD' ]				= 'CreateRecurringPaymentsProfile';
 
 			curl_setopt( $curl , CURLOPT_POSTFIELDS , http_build_query( $nvp ) );

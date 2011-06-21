@@ -6,8 +6,8 @@ $nvp = array(
 	'PAYMENTREQUEST_0_CURRENCYCODE'		=> 'BRL',
 	'PAYMENTREQUEST_0_PAYMENTACTION'	=> 'Sale',
     'LOCALECODE'                            => 'pt_BR', //pt_BR forca experiencia em portugues
-    'L_BILLINGTYPE0'                        => 'RecurringPayments', //Nececssario informar o tipo de pagamento
-    'L_BILLINGAGREEMENTDESCRIPTION0'        => 'Acesso a conteúdo exclusivo. R$9,90 por mês.', //adicione uma descricao da assinatura
+    'L_BILLINGTYPE0'                        => 'RecurringPayments', //Necessario informar o tipo de pagamento
+    'L_BILLINGAGREEMENTDESCRIPTION0'        => 'Acesso a conteudo exclusivo. R$9,90 por mes.', //adicione uma descricao da assinatura
 	'RETURNURL'				=> 'http://127.0.0.1/RecurringPayments/retorno.php?PERIODO='.$_GET['periodo'],
 	'CANCELURL'				=> 'http://127.0.0.1/RecurringPayments/cancelamento.php',
 	'METHOD'				=> 'SetExpressCheckout',

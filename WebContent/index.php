@@ -15,7 +15,7 @@
 			<span>Valor</span><span>R$ 9,99</span><br />
                         <span>Quantidade de parcelas</span>
                         <span><select name="periodo" id="periodo">
-                                <option value="0">Sem data para tÃ©rmino</option>
+                                <option value="0">Sem data para trmino</option>
                             <option value="6">6 Meses</option>
                             <option value="12">12 meses</option>
                             </select></span><br />
